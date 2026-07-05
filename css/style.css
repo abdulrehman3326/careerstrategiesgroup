@@ -164,7 +164,12 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
 }
 .btn--white:hover { transform: translateY(-2px); box-shadow: 0 10px 24px rgba(0,0,0,.15); }
 
-.btn--block { width: 100%; }
+.btn--block {
+  width: 100%;
+  white-space: normal;
+  text-align: center;
+  line-height: 1.35;
+}
 .btn--lg { padding: 18px 40px; font-size: 17px; }
 .btn--sm { padding: 10px 20px; font-size: 13.5px; }
 .btn--pill svg { transition: transform .25s var(--ease); }
@@ -582,8 +587,10 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
 .quote {
   max-width: 700px;
   margin: 0 auto;
+  padding: 40px 0;
   text-align: center;
-  padding: 0;
+  border-top: 1px solid rgba(255,255,255,.15);
+  border-bottom: 1px solid rgba(255,255,255,.15);
 }
 .quote__mark { margin-bottom: 18px; }
 .quote__text {
@@ -1016,6 +1023,10 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
   .navbar__inner { height: 68px; }
   .nav-links { top: 150px; }
   .hero { padding: 48px 0 64px; }
+  .hero__cta-card .btn {
+    padding: 14px 18px;
+    font-size: 14.5px;
+  }
   .section { padding: 70px 0; }
   .stats-grid { grid-template-columns: 1fr; }
   .footer__inner { grid-template-columns: 1fr; }
