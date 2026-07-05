@@ -842,12 +842,11 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
 
 .about__intro {
   max-width: 760px;
-  margin: -20px auto 32px;
-  padding: 0 0 28px;
+  margin: -20px auto 48px;
+  padding: 0;
   font-size: clamp(16px, 1.6vw, 18px);
   line-height: 1.65;
   text-align: center;
-  border-bottom: 1px solid rgba(255,255,255,.12);
 }
 
 .about__stats {
