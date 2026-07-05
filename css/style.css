@@ -494,6 +494,52 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
 }
 .section-grid > * { min-width: 0; }
 
+.why__header { margin-bottom: 44px; }
+.why__header .eyebrow { margin-bottom: 14px; }
+.why__headline {
+  font-family: var(--font-display);
+  font-size: clamp(34px, 4.8vw, 52px);
+  font-weight: 600;
+  line-height: 1.12;
+  letter-spacing: -.025em;
+  color: var(--ink);
+  margin: 0;
+  max-width: 14ch;
+}
+.why__headline-accent { color: var(--primary); }
+
+.faq__header {
+  margin-bottom: 44px;
+  text-align: center;
+}
+.faq__header .eyebrow { margin-bottom: 14px; }
+.faq__headline {
+  font-family: var(--font-display);
+  font-size: clamp(34px, 4.8vw, 52px);
+  font-weight: 600;
+  line-height: 1.12;
+  letter-spacing: -.025em;
+  color: var(--ink);
+  margin: 0 auto;
+  max-width: 18ch;
+}
+
+.process__header {
+  margin-bottom: 44px;
+  text-align: center;
+}
+.process__header .eyebrow { margin-bottom: 14px; }
+.process__headline {
+  font-family: var(--font-display);
+  font-size: clamp(34px, 4.8vw, 52px);
+  font-weight: 600;
+  line-height: 1.12;
+  letter-spacing: -.025em;
+  color: var(--ink);
+  margin: 0 auto;
+  max-width: 16ch;
+}
+
 .way-out-card {
   background: linear-gradient(165deg, var(--primary), var(--primary-dark));
   color: #fff;
@@ -510,15 +556,6 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
 .way-out-card__body {
   font-size: 15.5px;
   color: rgba(255,255,255,.9);
-  margin: 0 0 22px;
-}
-.way-out-card__tagline {
-  font-family: var(--font-display);
-  font-style: italic;
-  font-size: 18px;
-  font-weight: 500;
-  border-top: 1px solid rgba(255,255,255,.25);
-  padding-top: 20px;
   margin: 0;
 }
 
