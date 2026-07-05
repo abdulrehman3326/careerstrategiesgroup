@@ -115,6 +115,9 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
   margin-right: auto;
   margin-bottom: 16px;
 }
+.section-heading--light {
+  color: #66b3ff;
+}
 
 .body-text {
   font-size: 17px;
@@ -407,9 +410,14 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
   text-align: left;
 }
 
-/* Quote — plain text with quotation marks */
+/* Quote — card */
 .hero__quote {
   margin: 0;
+  padding: 20px 22px;
+  background: #fff;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-sm);
   font-family: var(--font-display);
   font-size: 15.5px;
   font-style: italic;
